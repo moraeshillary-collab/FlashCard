@@ -20,6 +20,7 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-color: azure;
 }
 main{
     flex: 1;
@@ -30,4 +31,17 @@ main{
 }
 h1{
     color: rgb(111, 221, 255);
+    font: size 24px; ;
+}
+footer{
+    background-color: rgb(3, 224, 224);
+    padding: 15px 25px;
+    color:rgb(5, 99, 122)
+}
+.cartao-interno{
+    position: relative;
+}
+.cartao-frente, .cartao-verso{
+    position: absolute;
+    border: 12px;
 }
